@@ -1,5 +1,5 @@
 import { Inter } from 'next/font/google'
-import HomePage from './Layouts/HomePage'
+import HomePage from './app/home'
 
 const inter = Inter({ subsets: ['latin'] });
 

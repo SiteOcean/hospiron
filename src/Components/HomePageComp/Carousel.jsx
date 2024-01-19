@@ -42,9 +42,10 @@ const Carousel = () => {
       <div className='min-h-[85vh] flex justify-center items-center flex-col  
         '>
       
-        <div className='w-[90%] sm:w-[70%] mx-auto grid mt-[10vh] sm:mt-[20vh] justify-center text-center items-center'>
-        <p className='text-[25px] sm:text-[33px] font-semibold text-[#a33cc2]'>Welcome to <span className="font-bold text-[26px] sm:text-[36px]">Hospiron</span> - An Innovative Startup Revolutionizing Healthcare with Cutting-Edge Medical Equipment!
+        <div className='w-[90%] sm:w-[70%] mx-auto grid mt-[5vh] sm:mt-[20vh] justify-center text-center items-center'>
+        <p className='text-[19px] sm:text-[30px] font-semibold text-[#a33cc2]'>Welcome to <span className="font-bold text-[26px] text-transparent bg-clip-text bg-gradient-to-r from-[#e681fa] to-[#ee1ae3] sm:text-[36px] tracking-wider">Hospiron</span> - An Innovative Startup Revolutionizing Healthcare with Cutting-Edge Medical Equipment!
         </p>
+       
         <p className='text-[15px] sm:text-[17px] text-gray-500 mt-5 font-semibold w-[80%] mx-auto sm:w-[85%]'>At Hospiron, we're dedicated to transforming healthcare through cutting-edge medical equipment, enhancing patient care, streamlining processes, and elevating medical practices. Explore a new era of solutions with us as industry pioneers.
         <br /><br />
         Empowering healthcare professionals for unparalleled patient outcomes, we're on a mission to redefine care standards and revolutionize the healthcare experience. Join us in shaping a healthier and brighter future through relentless excellence and innovative commitment.</p>

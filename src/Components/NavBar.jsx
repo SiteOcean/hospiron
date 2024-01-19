@@ -36,7 +36,7 @@ const NavBar = () => {
     <nav className={`w-full duration-700 bg-white text-[#a33cc2] sticky top-0 z-50 shadow-lg`}>
       <div className="max-w-7xl mx-auto px-2 p-1 sm:p-0 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between min-h-[60px] ">
-          <div className="flex-1 flex flex-col px-5 md:px-1 sm:flex-row md:items-center relative justify-between sm:items-stretch ">
+          <div className="flex-1  flex flex-col px-5 md:px-1 sm:flex-row md:items-center relative justify-between sm:items-stretch ">
             
             {/* icon */}
             <div  className="sm:hidden flex-shrink-0 absolute top-1 right-5 ">
@@ -69,7 +69,7 @@ const NavBar = () => {
 
             <div className="flex-shrink-0">
               <Link href="/">
-                <span className="text-[23px] hover:text-[#d366f5] tracking-widest font-serif text-[#b341d6] font-bold">Hospiron</span>
+                <span className="text-[23px] sm:hover:text-[#d366f5] tracking-widest font-serif text-[#b341d6] font-bold">Hospiron</span>
               </Link>
             </div>
 
@@ -77,15 +77,15 @@ const NavBar = () => {
               <div className="flex flex-col justify-around md:space-x-5 min-h-[150px]
                sm:min-h-0 sm:flex-row text-[19px] font-serif">
               <Link href="/">
-                  <span style={{fontWeight:router.pathname === "/" ? "bold" : "normal"}} className={`  md:hover:bg-[#a33cc2] duration-300 hover:text-white px-3 py-2 rounded-md 
+                  <span style={{fontWeight:router.pathname === "/" ? "bold" : "normal"}} className={`  md:sm:hover:bg-[#a33cc2] duration-300 sm:hover:text-white px-3 py-2 rounded-md 
                    text-[#b341d6]`}>Home</span>
                 </Link>
-                <Link href="/Layouts/AboutPage">
-                  <span style={{fontWeight:router.pathname === "/Layouts/AboutPage" ? "bold" : "normal"}} className={`  md:hover:bg-[#a33cc2] duration-300 hover:text-white px-3 py-2 rounded-md 
+                <Link href="/app/about">
+                  <span style={{fontWeight:router.pathname === "/app/about" ? "bold" : "normal"}} className={`  md:sm:hover:bg-[#a33cc2] duration-300 sm:hover:text-white px-3 py-2 rounded-md 
                    text-[#b341d6]`}>About</span>
                 </Link>
-                <Link href="/Layouts/ContactPage">
-                  <span style={{fontWeight:router.pathname === "/Layouts/ContactPage" ? "bold" : "normal"}} className={` md:hover:bg-[#a33cc2] duration-300 hover:text-white px-3 py-2 rounded-md 
+                <Link href="/app/contact">
+                  <span style={{fontWeight:router.pathname === "/app/contact" ? "bold" : "normal"}} className={` md:sm:hover:bg-[#a33cc2] duration-300 sm:hover:text-white px-3 py-2 rounded-md 
                    text-[#b341d6]`}>Contact</span>
                 </Link>
               </div>
@@ -96,15 +96,15 @@ const NavBar = () => {
 
               <div className="flex flex-col space-y-6 font-serif">
               <Link href="/" className=''>
-              <span style={{fontWeight:router.pathname === "/" ? "bold" : "normal"}} className={` hover:bg-[#a33cc2] hover:text-white px-3 py-2 rounded-md 
+              <span style={{fontWeight:router.pathname === "/" ? "bold" : "normal"}} className={` sm:hover:bg-[#a33cc2] sm:hover:text-white px-3 py-2 rounded-md 
                    text-[#b341d6]`}>Home</span>
                 </Link>
-                <Link href="/Layouts/AboutPage">
-                <span style={{fontWeight:router.pathname === "/Layouts/AboutPage" ? "bold" : "normal"}} className={` hover:bg-[#a33cc2] hover:text-white px-3 py-2 rounded-md 
+                <Link href="/app/about">
+                <span style={{fontWeight:router.pathname === "/app/about" ? "bold" : "normal"}} className={` sm:hover:bg-[#a33cc2] sm:hover:text-white px-3 py-2 rounded-md 
                    text-[#a33cc2]`}>About</span>
                  </Link>
-                <Link href="/Layouts/ContactPage">
-                <span style={{fontWeight:router.pathname === "/Layouts/ContactPage" ? "bold" : "normal"}} className={` hover:bg-[#a33cc2] hover:text-white px-3 py-2 rounded-md 
+                <Link href="/app/contact">
+                <span style={{fontWeight:router.pathname === "/app/contact" ? "bold" : "normal"}} className={` sm:hover:bg-[#a33cc2] sm:hover:text-white px-3 py-2 rounded-md 
                    text-[#b341d6]`}>Contact</span>
                 </Link>
               </div>

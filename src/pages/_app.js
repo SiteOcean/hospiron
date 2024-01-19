@@ -1,5 +1,5 @@
 import '@/styles/globals.css'
-import Layout from './Layouts/Layout'
+import Layout from './aosFunctionalites'
 import 'tailwindcss/tailwind.css';
 import Head from 'next/head';
 

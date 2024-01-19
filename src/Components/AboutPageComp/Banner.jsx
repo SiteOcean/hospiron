@@ -8,7 +8,7 @@ const Banner = () => {
   
     return (
       <div>
-        <div className="min-h-[50vh] hover:text-[#d366f5] flex justify-center items-center bg-gradient-to-r from-pink-100  to-[#f0d4f8] text-center  text-[#a33cc2] font-bold text-[50px]">
+        <div className="min-h-[30vh] uppercase hover:text-[#d366f5] flex justify-center items-center bg-gradient-to-r from-pink-100  to-[#f0d4f8] text-center  text-[#a33cc2] font-bold text-[50px]">
       About
   </div>
 
