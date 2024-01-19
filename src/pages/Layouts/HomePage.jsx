@@ -30,7 +30,7 @@ const HomePage=()=>{
        
         </div>
     <Footer/>
-    <RiWhatsappFill onClick={redirectToWhatsApp} className="text-[50px] hover:text-green-700 duration-300 text-green-600 fixed bottom-[10%]  animate-bounce right-[5%]"/>
+    <RiWhatsappFill onClick={redirectToWhatsApp} className="text-[50px] hover:text-green-700 duration-300 text-green-600 fixed bottom-[6%]  animate-bounce right-[4%]"/>
     </div>)
 }
 export default HomePage

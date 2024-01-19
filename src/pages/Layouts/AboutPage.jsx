@@ -1,6 +1,6 @@
 import Footer from "@/Components/Footer"
 import Banner from "@/Components/AboutPageComp/Banner"
-import GridImageSection from "@/Components/HomePageComp/gridImageSection"
+import GridImageSectionAbout from "@/Components/AboutPageComp/gridImageSection"
 
 const { default: NavBar } = require("@/Components/NavBar")
 
@@ -12,7 +12,7 @@ const AboutPage=()=>{
         <NavBar/>
 
             <Banner/>
-            <GridImageSection/>
+            <GridImageSectionAbout/>
 
         <Footer/>
     </div>)

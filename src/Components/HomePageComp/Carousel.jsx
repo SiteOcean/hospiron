@@ -42,9 +42,12 @@ const Carousel = () => {
       <div className='min-h-[85vh] flex justify-center items-center flex-col  
         '>
       
-        <div className='w-[90%] sm:w-[70%] mx-auto grid mt-[15vh] sm:mt-[20vh] justify-center text-center items-center'>
-        <p className='text-[30px] sm:text-[50px] font-semibold text-[#a33cc2]'>Hospiron Business </p>
-        <p className='text-[15px] sm:text-[19px] text-gray-500 mt-5 font-semibold w-[80%] mx-auto sm:w-auto'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, perferendis. Inventore aperiam nihil eum, illum voluptas impedit dolorum vitae perspiciatis fuga quo quia omnis ab! Quae, unde quis delectus quas error provident aliquid sint assumenda molestias, voluptates quidem adipisci suscipit earum commodi numquam accusantium corporis voluptas omnis, nam tempore laboriosam. </p>
+        <div className='w-[90%] sm:w-[70%] mx-auto grid mt-[10vh] sm:mt-[20vh] justify-center text-center items-center'>
+        <p className='text-[25px] sm:text-[33px] font-semibold text-[#a33cc2]'>Welcome to <span className="font-bold text-[26px] sm:text-[36px]">Hospiron</span> - An Innovative Startup Revolutionizing Healthcare with Cutting-Edge Medical Equipment!
+        </p>
+        <p className='text-[15px] sm:text-[17px] text-gray-500 mt-5 font-semibold w-[80%] mx-auto sm:w-[85%]'>At Hospiron, we're dedicated to transforming healthcare through cutting-edge medical equipment, enhancing patient care, streamlining processes, and elevating medical practices. Explore a new era of solutions with us as industry pioneers.
+        <br /><br />
+        Empowering healthcare professionals for unparalleled patient outcomes, we're on a mission to redefine care standards and revolutionize the healthcare experience. Join us in shaping a healthier and brighter future through relentless excellence and innovative commitment.</p>
        
 
     </div>
@@ -54,10 +57,13 @@ const Carousel = () => {
     <div className='min-h-[85vh] flex justify-center items-center flex-col gap-5 bg-gradient-to-r from-blue-300 to-purple-300 
         '>
       
-        <div className='w-[90%] sm:w-[70%] text-center mx-auto grid mt-[15vh] sm:mt-[20vh] justify-center items-center'>
-        <p className='text-[30px] sm:text-[50px] font-semibold text-white'>Hospiron Business </p>
+        <div className='w-[90%] sm:w-[70%] text-center mx-auto grid mt-[10vh] sm:mt-[20vh] justify-center items-center'>
+        <p className='text-[25px] sm:text-[35px] font-semibold text-white'>Why Choose Hospiron?</p>
         
-        <p className='text-[15px] sm:text-[19px] mt-5 font-semibold w-[80%] mx-auto sm:w-auto'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, perferendis. Inventore aperiam nihil eum, illum voluptas impedit dolorum vitae perspiciatis fuga quo quia omnis ab! Quae, unde quis delectus quas error provident aliquid sint assumenda molestias, voluptates quidem adipisci suscipit earum commodi numquam accusantium corporis voluptas omnis, nam tempore laboriosam. </p>
+        <p className='text-[15px] sm:text-[19px] text-gray-600 mt-5 font-semibold w-[80%] mx-auto sm:w-auto'>Embark on a journey of groundbreaking advancements with our cutting-edge medical equipment. We pride ourselves on staying at the forefront of technology, ensuring that our products redefine standards and set new benchmarks in the healthcare industry.
+        <br />
+        <br />
+        From small clinics to large healthcare facilities, our medical equipment suits diverse needs. Tailored for uniqueness, our customizable solutions seamlessly integrate into your workflow.</p>
     </div>
    
     </div>
@@ -65,10 +71,13 @@ const Carousel = () => {
     <div className='min-h-[85vh] flex justify-center items-center flex-col gap-5 bg-gradient-to-r from-indigo-300 to-[#e2b4e2] 
         '>
       
-        <div className='w-[90%] sm:w-[70%] text-center mx-auto grid mt-[15vh] sm:mt-[20vh] justify-center items-center'>
-        <p className='text-[30px] sm:text-[50px] font-semibold text-white'>Hospiron Business </p>
+        <div className='w-[90%] sm:w-[70%] text-center mx-auto grid mt-[10vh] sm:mt-[20vh] justify-center items-center'>
+        <p className='text-[25px] sm:text-[50px] font-semibold text-white'>Join Us in Shaping the Future of Healthcare:</p>
         
-        <p className='text-[15px] sm:text-[19px] text-gray-50 mt-5 font-semibold w-[80%] mx-auto sm:w-auto'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, perferendis. Inventore aperiam nihil eum, illum voluptas impedit dolorum vitae perspiciatis fuga quo quia omnis ab! Quae, unde quis delectus quas error provident aliquid sint assumenda molestias, voluptates quidem adipisci suscipit earum commodi numquam accusantium corporis voluptas omnis, nam tempore laboriosam. </p>
+        <p className='text-[15px] sm:text-[19px] text-gray-600 mt-5 font-semibold w-[80%] mx-auto sm:w-auto'>At Hospiron, we invite healthcare professionals, institutions, and practitioners to join us on this exciting journey. Together, we can push the boundaries of what  s possible and create a future where healthcare is synonymous with excellence.
+      <br />
+      <br />
+        Explore our website, discover the possibilities, and be a part of the medical revolution. Welcome to Hospiron Where Innovation Meets Healthcare Excellence!</p>
        
     </div>
    
