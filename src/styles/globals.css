@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom CSS rules */
+.nav {
+  display: none;
+}
+
+.navnone {
+  display: flex;
+}
+
