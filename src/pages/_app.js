@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
   return  <Layout>
   <Head>
         <title>Hospiron</title>
-        <link rel="icon" href="/favicon.jpg" />
+        <link rel="icon" href="/logo.jpg" />
         {/* <meta name="description" content="Description of your page" /> */}
         <meta name="keywords" content="hospiron, hospiron.in, hospiron.com" />
         {/* <meta name="author" content="Your Name" /> */}

@@ -1,7 +1,7 @@
-import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React from 'react'
-
+import Logo from '../../public/logo.jpg'
+import Image from 'next/image';
 const Footer = () => {
 
   const router = useRouter()
@@ -10,8 +10,11 @@ const Footer = () => {
    
        
           <div className=" text-left pl-6 sm:pl-12 w-[82%] sm:w-[60%]">
-            <h2 className=" text-lg font-bold leading-tight mb-2 text-[#b448d4] tracking-widest">Hospiron</h2>
-            <p className=" text-sm ">We forge ahead with unwavering determination, sculpting the future of healthcare through innovation. Join us in pioneering excellence and shaping a healthier world with every breakthrough.</p>
+         <div className='flex items-center mb-2'> <Image src={Logo} alt='logo' width={40} height={40}
+                className=''/>
+            <h2 className=" text-lg font-bold leading-tight text-[#44dbae] tracking-widest">Hospiron</h2>
+           </div>
+          <p className=" text-sm pl-3">We forge ahead with unwavering determination, sculpting the future of healthcare through innovation. Join us in pioneering excellence and shaping a healthier world with every breakthrough.</p>
           
           </div>
          
